@@ -1,0 +1,40 @@
+#b1{
+
+	background: url(parallax1.jpg) 50% 0 repeat fixed; min-height: 1000px;
+	height: 1000px;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1920px;
+	position: relative;
+	background-size: 1360px;
+}
+#b1 article{
+	font-size: 130px;
+	position: relative;
+	text-align: center;
+	top: 300px;
+	width: 100%;
+}
+
+#b2{
+	background: url(parallax2.jpg) 50% 0 no-repeat; min-height: 1000px;
+	height: 1200px;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1920px;
+	position: relative;
+	background-size: 1360px;
+	-webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+	box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+#b2 article{
+	height: 458px;
+	font-size: 130px;
+	position: absolute;
+	text-align: center;
+	top: 300px;
+	width: 100%;
+	color: black;
+
+}
